@@ -165,11 +165,23 @@ function Converter() {
     </Listbox>
                 </div>
 
-                <div className="flex-1">
-                <label className="font-bold text-sm mb-3 block" htmlFor="text">
-                Amount
-            </label>
-            <input type="text" className="focus:outline-none focus:ring-green-500 focus:border-green-500 w-full rounded-sm min-h-50 pl-3 pr-10 py-3 border-2" value="" placeholder="Enter aount"/>
+                <div
+                  className="border-2 border-blue-100 rounded-full p-4 cursor-pointer hover:border-green-300"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 17 17"
+                    aria-hidden="true"
+                    className="w-4 h-4 text-green-500 miscellany___StyledIconSwap-sc-1r08bla-1 fZJuOo"
+                  >
+                    <path
+                      fill="currentColor"
+                      fillRule="evenodd"
+                      d="M11.726 1.273l2.387 2.394H.667V5h13.446l-2.386 2.393.94.94 4-4-4-4-.94.94zM.666 12.333l4 4 .94-.94L3.22 13h13.447v-1.333H3.22l2.386-2.394-.94-.94-4 4z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
                 </div>
 
                 
@@ -242,8 +254,41 @@ function Converter() {
     </Listbox>
                 </div>
             </div>
-
+            <div className="flex justify-between mt-10  items-center">
+                <div>
+               
+                    <div>
+                      <p className="flex items-center text-xs font-regular text-gray-400">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-4 w-4"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                        &nbsp; This conversion uses midmarket rates.
+                      </p>
+                    </div>
+                  
+                      
+                        </div>
+                        <button
+                    className=
+                        'cursor-not-allowed inline-flex justify-center py-3 px-5 border border-transparent shadow-sm text-md font-bold rounded-md text-white bg-gray-300'
+                    
+                  >
+                    Convert
+                  </button>
+                      </div>
+                
+           
         </form>
+ 
     </section>
   )
 }
