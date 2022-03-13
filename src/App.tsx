@@ -4,7 +4,7 @@ import Convertor from './containers/converter';
 function App() {
 
   return (
-    <div>
+    <div className="bg-gray-200">
       <div className="max-w-4xl m-auto pb-6 pt-14">
         <Convertor/>
       </div>
