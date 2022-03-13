@@ -88,6 +88,7 @@ function Converter() {
             classNames={classNames}
             people={people}
             setFromCurrency={setFromCurrency}
+            label="From"
           />
 
           <Toggle />
@@ -97,6 +98,7 @@ function Converter() {
             classNames={classNames}
             people={people}
             setFromCurrency={toCurrency}
+            label="To"
           />
         </div>
         <div className="flex justify-between mt-10  items-center">
